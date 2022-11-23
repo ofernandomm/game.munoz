@@ -39,4 +39,14 @@ export const styles=StyleSheet.create({
         justifyContent:'space-evenly',
         marginTop:20,
     },
+    confirmedContainer: {
+        width: '63%',
+        height: 180,
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        marginVertical: 20,
+    },
+    confirmedTitle: {
+        fontSize: 16
+    },
 })
