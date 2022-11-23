@@ -2,6 +2,7 @@ import React from 'react'
 import{View,Text,TextInput,Button} from 'react-native'
 import {styles} from './styles'
 import {Card} from '../../components'
+import colors from '../../utils/colors'
 
 const StartGame=()=>{
     return(
@@ -19,7 +20,7 @@ const StartGame=()=>{
                     <Button
                         title='Confirm'
                         onPress={()=>null}
-                        color='#A7BED3'
+                        color={colors.primary}
                     />
                 </View>
             </Card>
