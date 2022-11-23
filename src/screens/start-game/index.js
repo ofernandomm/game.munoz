@@ -12,9 +12,7 @@ const StartGame=()=>{
     }
 
     return(
-        <TouchableWithoutFeedback onPress={()=>{
-            Keyboard.dismiss()
-        }}>
+        <TouchableWithoutFeedback onPress={()=>{Keyboard.dismiss()}}>
             <View style={styles.container}>
                 <Text style={styles.title}>Let's start!</Text>
                 <Card style={styles.inputContainer}>
