@@ -58,7 +58,7 @@ const StartGame=({onStartGame})=>{
                         <Button
                             title='Restart'
                             onPress={onHandleReset}
-                            color='#A7BED3'
+                            color={colors.secondary}
                         />
                         <Button
                             title='Confirm'

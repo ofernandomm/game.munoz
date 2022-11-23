@@ -32,7 +32,7 @@ const Game = ({selectedNumber}) => {
                     <Button
                         title="greater"
                         onPress={() => null}
-                        color={colors.primary}
+                        color={colors.secondary}
                     />
                 </View>
             </Card>
